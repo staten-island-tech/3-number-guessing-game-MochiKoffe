@@ -1,17 +1,40 @@
+""" count = 1
+while count <=5:
+    print("this is loop number", count)
+    count=count+1 """
+
+""" order = ""
+while order != "done":
+    order=input("What would you like to order? (type 'done' to finish): ")
+    print("thanks for your order") """
+
+""" number = 10
+while number != 0:
+    print(number)
+    number = number-1 """
+
+""" color = ""
+while color != "stop":
+    color = input("favorite color? (type 'stop' to stop): ")
+    print("coolio") """
+
+
+guess = int(input("what number am i thinking of"))
+import random
+random = (random.randint(1,10))
+
 history=[]
-guess = int(input("guess what number i am thinking of lolz"))
-import random 
-print(random.randint(1,10))
-def random(guess):
-    for i in range(1,10):
-        if guess == random:
-            print("you're so cool bro")
-            print(history)
-        elif guess < random: 
-            history.append(i)
-            print("lower")
-            print(guess)
-        elif guess > random:
-            history.append(i)
-            print("higher")
-            print(guess)
+history.append(guess)
+
+while guess != random:
+       guess < random
+       guess = int(input("guess what number i am thinking of lolz"))
+       print("history")
+       print("higher" and history and guess)
+       guess > random
+       guess = int(input("guess what number i am thinking of lolz"))
+       print("history")
+       print("lower" and history and guess)
+
+if guess == random:
+    print("good boy" and history)
