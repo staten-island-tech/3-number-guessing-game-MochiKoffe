@@ -19,22 +19,21 @@ while color != "stop":
     print("coolio") """
 
 
-guess = int(input("what number am i thinking of"))
+guess = 0
 import random
-random = (random.randint(1,10))
-
+wee = (random.randint(1,10))
 history=[]
-history.append(guess)
 
-while guess != random:
-       guess < random
-       guess = int(input("guess what number i am thinking of lolz"))
-       print("history")
-       print("higher" and history and guess)
-       guess > random
-       guess = int(input("guess what number i am thinking of lolz"))
-       print("history")
-       print("lower" and history and guess)
+while guess != wee:
+       guess = int(input("guess number"))
 
-if guess == random:
-    print("good boy" and history)
+
+       if guess < wee:
+           history.append(guess)
+           print("higher", history)
+       elif guess > wee: 
+           history.append(guess)
+           print("lower", history)
+
+if guess == wee:
+    print("HURAHHHHH, ILL BE DAMNED, FOR KING AND FOR COUNTRY", history)
